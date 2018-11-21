@@ -85,6 +85,7 @@ public class FrmCidade extends javax.swing.JFrame {
         txtCEP = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Cadastro de cidade");
 
         jLabel1.setText("Código");
 

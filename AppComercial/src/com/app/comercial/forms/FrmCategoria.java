@@ -77,6 +77,7 @@ public class FrmCategoria extends javax.swing.JFrame {
         btnExcluir = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Cadastro de Categoria");
 
         jLabel1.setText("Código:");
 

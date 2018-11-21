@@ -101,6 +101,7 @@ public class FrmClientes extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Cadastro de Cliente");
 
         jLabel1.setText("Código");
 
