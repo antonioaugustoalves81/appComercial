@@ -1,0 +1,31 @@
+ - Testar a instalação do git: git 
+ - criar a chave de segurança: 
+	- ssh-keygen -t rsa -C "antonioaugusto@feevale.br"
+ - criar a conta no github ou no bitbucket e adicionar a chave de segurança
+ - criar uma pasta no computador para salvar os repositórios
+ -navegar até a pasta com o comando cd d: e cd projetos
+ - clonar o repositório online para o pc
+	- git clone git@github.com:antonioaugustoalves81/appComercial.git
+ - navegar até a pasta clonada do projeto: cd appComercial
+ - comando clear limpa a tela
+ - verificar o status do projeto: git status
+ - adicionar arquivos para serem rastreados: git add . (adiciona tudo)
+------------------------------------------------------------------------------------
+Configura o usuario:
+ - git config --global user.name "João Carlos Fonseca"
+ -git config user.email "jcfonsecagit@gmail.com"
+-----------------------------------------------------------------------------------
+Registrando a primeira alteração:
+ - git commit -a -m "Digite uma mensagem"
+-----------------------------------------------------------------------------------
+Sincronizando com o repositório remoto
+ - git remote add origin https://github.com/[seu_nome_de_usuario]/curso-git.git
+-----------------------------------------------------------------------------------
+Enviando para o repositório remoto
+ - git push origin master
+-----------------------------------------------------------------------------------
+Pegando a versão mais atual do projeto no repositório remoto
+ - git pull
+-----------------------------------------------------------------------------------
+Listar os commits realizados
+ - git log
